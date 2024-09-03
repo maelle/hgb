@@ -1,0 +1,13 @@
+Package: hgb
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0002-2815-0399"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Config/Needs/build: roxygen2, devtools, maelle/myroxy
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE, roclets = c("collate", "rd", "namespace",
+    "myroxy::custom_roclet"), packages = "myroxy")
+RoxygenNote: 7.3.2
